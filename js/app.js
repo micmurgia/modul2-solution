@@ -1,10 +1,14 @@
-(function{
+(function(){
   'use strict';
-  angular.module('NomeModulo'[])
-  .controller('NomeController',NomeController);
-  NomeController.$inject = ['$scope'];
+  angular.module('AppModul2Solution'[])
+  .controller('ToBuyController',ToBuyController)
+  .controller('AlreadyBoughtController',AlreadyBoughtController);
+  ToBuyController.$inject = ['$scope'];
+  AlreadyBoughtController.$inject = ['$scope'];
+  function ToBuyController($scope){
 
-  function NomeController($scope){
+  }
+  function AlreadyBoughtController($scope){
 
   }
 })();
